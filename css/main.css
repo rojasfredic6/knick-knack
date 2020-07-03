@@ -1,7 +1,6 @@
 *{
 	margin: 0;
 	padding: 0;
-	
 	}
 
 body{
@@ -43,14 +42,15 @@ li{
 	padding: 20px;
 	border-radius: 20px;
 	height: 550px;
+	width: 830px;
 	}
 
 #maquetado header{
 	background-color: #fceff0;
 	border-radius: 10px;
 	display: grid;
-	grid-template-columns: 33% 33% 33%;
-	grid-template-rows: 100%;
+	grid-template-columns: 276.6px 276.6px 276.6px;
+	grid-template-rows: 277px;
 	height: 50%;
 	width: auto;
 	}
@@ -63,7 +63,8 @@ li{
 	}
 	
 .header-img{
-	height: 90%;
+	width: 276.59px;
+	height: 277px;
 	}
 
 .title{
@@ -80,12 +81,12 @@ li{
 	line-height: 1;
 	}	
 	
-.title h6, button{
+.title h6{
 	text-align: center;
 	line-height: 1.5;
 	}
 
-.title button{
+#boton-principal{
 	background-color: #31db6a;
 	color: white;
 	width: 40%;
@@ -94,30 +95,33 @@ li{
 	font-size: 10px;
 	font-style: bold;
 	cursor: pointer;
+	text-align: center;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
 } 
 
 main{
-	padding: 20px;
+	padding: 20px 0px 0px 0px;
 	display: grid;
-	grid-template-columns: 70% 33%;
+	grid-template-columns: 579.6px 248.4px;
 	grid-template-rows: 100%;
-	height: 50%;
-	width: auto;
+	height: 253px;
+	width: 828px;
 	}
 
 .main-recomendations{
 	grid-column: span 1;
 	grid-row: span 1;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	
+	margin-right: 20px;	
 }
 
 .main-my-orders{
 	grid-column: 2 / 3;
 	grid-row: span 1;
-	margin-right: 10px;
-	height:80%;
+	height:253px;
 }
 
 .main-recomendations-title{
@@ -159,15 +163,15 @@ main{
 .main-recomendations-benefits{
 	display: flex;
 	justify-content: space-around;
-	height: 100%;
-	margin-right: 2px;
+	height: 191px;
 }
 
 .benefits{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 75%;
+	height: 191px;
+	width: 186.53px;
 	}
 
 .benefits picture{
@@ -179,7 +183,7 @@ main{
 }
 
 .benefits picture img{
-	width: 110px;
+	height: 111px;
 }
 
 .benefits h6 {
@@ -223,28 +227,29 @@ main{
 }
 
 .orders-options{
-	height: 60%;
-	margin: 5px;
-
+	height:192px;
+	width:238.38px;
 }
 
 .orders-options-list{
 	display: flex;
 	justify-content: space-around;
-	height: auto;
+	height: 64px;
 }
-
+.orders-options-list div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
 .orders-options-list div h6{
-	margin: 5px;
+	margin-top: 5 px;
 	font-size: 10px;
 }
 
 .orders-options-list picture{
-	height: 100%;
-	width: auto;
+	width: 50.38px;
 	display:flex;
 	align-items: center;
-	margin-right: 2px;
 }
 
 .orders-options-list picture img{
